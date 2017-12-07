@@ -7,7 +7,6 @@
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
-
 <div id="flexContainer">
 
 	<div id="container1">
@@ -23,27 +22,30 @@
 
 
 	<div id="container2">
-			<div id="computerHalf">
-				<div id="timerDiv">
-					<p id="countDownTimer">#s remaining</p>
-				</div>
-				<div id="questionBox"><p id="questionBoxText">Click New Game to begin!</p></div>
+		<div id="computerHalf">
+			<div id="timerDiv">
+				<p id="countDownTimer">#s remaining</p>
+			</div>
+			<div id="questionBox"><p id="questionBoxText">Click New Game to begin!</p></div>
+		</div>
+
+		<div id="playerHalf">
+			<div id="answerBox">
+				<p id="answerBoxText">HELLO THIS IS A TEST</p>
+			</div>
+			<div id="curPlayerNScore">
+				<p id="displayCurrentPlayer">Player: 1</p>
+				<p id="displayCurrentScore">Current Score: 0</p>
 			</div>
 
-			<div id="playerHalf">
-				<div id="answerBox"><p id="answerBoxText">HELLO THIS IS A TEST</p></div>
-				<div id="curPlayerNScore">
-					<p id="displayCurrentPlayer">Player: 1</p>
-					<p id="displayCurrentScore">Current Score: 0</p>
-				</div>
-
-				<div id="playerInputArea">	
-					<form id="playerInputForm">	
-						<input type="text" name="playerInputBox" placeholder="Type here!" id="playerInputBox" autofocus>
-					</form>
-				</div>
+			<div id="playerInputArea">	
+				<form id="playerInputForm">	
+					<input type="text" name="playerInputBox" placeholder="Type here!" id="playerInputBox" autofocus>
+				</form>
 			</div>
-		</div> <!-- End #container-->
+		</div>
+
+	</div> <!-- End #container-->
 
 
 	<div id="container3">
@@ -52,10 +54,10 @@
 		</div>
 	</div>
 </div> <!-- End flexbox container -->
-    
+ 
 </body>
+
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="js/main.js"></script>
-
 </html>
