@@ -107,5 +107,3 @@ I plan to allow for more than 2 players, and to increase the type of questions t
 
 
 ---
-Wow you made it to the end
-
