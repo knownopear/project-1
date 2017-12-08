@@ -1,4 +1,4 @@
-
+<img src="img/logo.png" width="100px">
 # BE QUICK! ϟ
 
 [Click here for a link to the game](https://knownopear.github.io/project-1/)
@@ -53,6 +53,11 @@ A quick design of the layout that includes the color scheme
 
 ### Color Scheme
 I decided to go with a neutral, light color scheme with a splash of contrast. This is to ensure that the color does not distract the players from the logical problems they will be facing
+* White - #FFFFFF
+* Muted Red - #F0787A
+* Muted Teal - #AFD3D1 
+* Light Grey - #E1E3E4
+* Dark Grey - #D1D3D2
 
 ---
 
