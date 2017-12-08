@@ -1,3 +1,4 @@
+
 # BE QUICK! ϟ
 
 [Click here for a link to the game](https://knownopear.github.io/project-1/)
@@ -38,6 +39,22 @@ With that in mind, I decided to have it as a turn-based game instead, with turns
 * Initialise game and repeat steps
 
 ---
+### Logo Design
+<img src="img/logo.png" width="100px">
+The logo was modeled after a lightning bolt to keep in line with the theme of being quick
+
+---
+
+### Layout Design
+<img src="img/layout.png" width="700px">
+A quick design of the layout that includes the color scheme
+
+---
+
+### Color Scheme
+I decided to go with a neutral, light color scheme with a splash of contrast. This is to ensure that the color does not distract the players from the logical problems they will be facing
+
+---
 
 ### Plans Ahead
 I plan to allow for more than 2 players, and to increase the type of questions that can be endlessly generated. I also plan to shorten the code.
@@ -49,4 +66,17 @@ I plan to allow for more than 2 players, and to increase the type of questions t
 * google is the most useful tool a developer can have
 * if you are burnt out from hours of looking at code, take a break! It is okay to have some time off
 
+---
+
+### Important Functions
+**generateNewProb();**
+This function chooses from 3 different types of logic questions 
+* generateString() - Generates a random string of letters with random cases. There is no capital I to avoid confusing the players
+* generateOpenEnded() - Generates an open-ended question of math (Is x +- y = z? yes/no)
+* generateMathEquation() - Generates a random equation
+and displays them to the player. There is a higher chance of getting a string and a math equation than an open-ended question.
+
+
+**increaseDifficulty()**
+This function increases with every question that the player gets right, and affects all of the generated questions that come after. When the player changes, the difficulty level resets.
 ---
