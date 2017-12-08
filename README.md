@@ -77,6 +77,22 @@ I decided to go with a neutral, light color scheme with a splash of contrast. Th
 ---
 
 
+### Important Functions
+* generateNewProb();
+This function chooses from 3 different types of logic questions 
+1) generateString() - Generates a random string of letters with random cases. There is no capital I to avoid confusing the players
+2) generateOpenEnded() - Generates an open-ended question of math (Is x +- y = z? yes/no)
+3) generateMathEquation() - Generates a random equation
+and displays them to the player. There is a higher chance of getting a string and a math equation than an open-ended question.
+
+
+* increaseDifficulty()
+This function increases with every question that the player gets right, and affects all of the generated questions that come after. When the player changes, the difficulty level resets.
+
+
+---
+
+
 ### Plans Ahead
 I plan to allow for more than 2 players, and to increase the type of questions that can be endlessly generated. I also plan to shorten the code.
 
@@ -91,18 +107,5 @@ I plan to allow for more than 2 players, and to increase the type of questions t
 
 
 ---
-
-
-### Important Functions
-**generateNewProb();**
-This function chooses from 3 different types of logic questions 
-* generateString() - Generates a random string of letters with random cases. There is no capital I to avoid confusing the players
-* generateOpenEnded() - Generates an open-ended question of math (Is x +- y = z? yes/no)
-* generateMathEquation() - Generates a random equation
-and displays them to the player. There is a higher chance of getting a string and a math equation than an open-ended question.
-
-
-**increaseDifficulty()**
-This function increases with every question that the player gets right, and affects all of the generated questions that come after. When the player changes, the difficulty level resets.
----
+Wow you made it to the end
 
