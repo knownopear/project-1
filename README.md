@@ -1,25 +1,32 @@
 <img src="img/logo.png" width="100px">
 # BE QUICK! ϟ
-
 [Click here for a link to the game](https://knownopear.github.io/project-1/)
+
+
 
 ### Overview
 
 BE QUICK! ϟ is a fun and fast game developed with the intent of pitting its players against each other with questions of typing dexterity, mathematical skill and logic questions. There is no room for error, and once a player makes a mistake their turn is forfeited and the baton is passed on to the next player.
 
+
 ---
+
 
 ### Number of Players
 BE QUICK! ϟ currently supports 2 players
 
+
 ---
+
 
 ### Technologies Used
 * **HTML5**
 * **CSS3**
 * **JQuery**
 
+
 ---
+
 
 ### Development Approach
 At the beginning of development, I played around with the idea of a multiplayer follow-the-leader-type of game. However, I quickly realised that having multiple players simultaneously following a leader would require there to be multiple inputs of the same type. For example, if two players had to follow the same string of text, they would require two seperate keyboards for a simultaneous input. 
@@ -38,18 +45,25 @@ With that in mind, I decided to have it as a turn-based game instead, with turns
 * There is a short delay
 * Initialise game and repeat steps
 
+
 ---
+
+
 ### Logo Design
 <img src="img/logo.png" width="100px">
 The logo was modeled after a lightning bolt to keep in line with the theme of being quick
 
+
 ---
+
 
 ### Layout Design
 <img src="img/layout.png" width="700px">
 A quick design of the layout that includes the color scheme
 
+
 ---
+
 
 ### Color Scheme
 I decided to go with a neutral, light color scheme with a splash of contrast. This is to ensure that the color does not distract the players from the logical problems they will be facing
@@ -59,19 +73,25 @@ I decided to go with a neutral, light color scheme with a splash of contrast. Th
 * Light Grey - #E1E3E4
 * Dark Grey - #D1D3D2
 
+
 ---
+
 
 ### Plans Ahead
 I plan to allow for more than 2 players, and to increase the type of questions that can be endlessly generated. I also plan to shorten the code.
 
+
 ---
+
 
 ### Things I have learnt
 * console.log() & alert() are my best friends
 * google is the most useful tool a developer can have
 * if you are burnt out from hours of looking at code, take a break! It is okay to have some time off
 
+
 ---
+
 
 ### Important Functions
 **generateNewProb();**
@@ -85,3 +105,4 @@ and displays them to the player. There is a higher chance of getting a string an
 **increaseDifficulty()**
 This function increases with every question that the player gets right, and affects all of the generated questions that come after. When the player changes, the difficulty level resets.
 ---
+
